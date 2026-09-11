@@ -1,0 +1,17 @@
+:root {
+  --main-color: blue;
+  --accent-color: darkblue;
+  --font-family: Arial;
+  --contrasting-color: white;
+}
+
+body {
+  background-color: var(--main-color);
+  color: var(--contrasting-color);
+  font-family: var(--font-family);
+  line-height: 1.6;
+}
+
+form {
+  display: flex;
+}
